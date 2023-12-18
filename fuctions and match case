@@ -1,0 +1,24 @@
+key = int(input("Enter the value from 1 to 2\n"))
+
+def square():
+    print("Enter the value of a to get the square number")
+    a = int(input())
+    b = a * a
+    print(b)
+
+def add():
+    print("Enter the first value of addition ")
+    a = int(input())
+    b = int(input("Enter the second value of addition"))
+    c = a + b
+    print(c)
+
+while True:
+    match key:
+        case 1:
+            add()
+        case 2:
+            square()
+        case _:
+            print("Invalid")
+    key = int(input("Enter the value from 1 to 2\n"))
