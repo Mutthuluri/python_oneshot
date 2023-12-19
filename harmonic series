@@ -1,0 +1,7 @@
+vv =int(input("Enter the range of harmonic series\n"))
+if vv > 0:
+    for i in range(1,vv+1):
+        harmonic = vv/i
+        print(harmonic)
+else:
+    print("Entered input is not valid according to maths known abhijith sir")
