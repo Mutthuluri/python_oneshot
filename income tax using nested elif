@@ -1,0 +1,15 @@
+income =float(input("Enter the income in dollars\n"))
+rate = 0.0
+if income<0:
+    rate = 0.0
+    tax = (income*rate)/100
+    print(tax)
+elif income>0 and income < 8925:
+    rate = 0.10
+    tax = (income*rate)/100
+    print(tax)
+elif income > 8925 and income < 36250:
+    rate = 0.50
+    tax = (income*rate)/100
+    print(tax)
+    print((income*rate)/100)
